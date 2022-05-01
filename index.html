@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <p><input type="text" id="x" placeholder="Введите первое число:" autofocus>
+        <input type="text" id="y" placeholder="Введите второе число:" autofocus></p>
+    <div><button type="button" id="mult" onclick="operation='*'">*</button>
+        <button type="button" id="div" onclick="operation='/'">/</button>
+        <button type="button" id="add" onclick="operation='+'">+</button>
+        <button type="button" id="sub" onclick="operation='-'">-</button>
+    </div>
+    <br>
+    <div><button onclick="func()">Посчитать</button>
+    </div>
+    <br>
+    <div id="result1"></div>
+
+    <script src="/index.js"></script>
+</body>
+
+</html>
